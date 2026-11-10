@@ -1,0 +1,21 @@
+# Python virtual environments and bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local PDF inputs
+*.[pP][dD][fF]
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
